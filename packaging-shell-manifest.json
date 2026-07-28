@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "id": "ons-android-shell",
+  "kind": "shell",
+  "version": "1.1.0",
+  "payloadClass": "runner",
+  "requires": [],
+  "runnerApi": "ons-android-package-shell-v1",
+  "testedTargets": [
+    {
+      "platform": "android",
+      "abi": "arm64-v8a"
+    }
+  ],
+  "artifacts": [
+    {
+      "platform": "android",
+      "abi": "arm64-v8a",
+      "format": "apk",
+      "url": "https://github.com/nekobyran/Gamelauncher-engine-onscripter/releases/download/v1.1.0/Gamelauncher-ons-thin-shell-release-arm64-v8a.apk",
+      "sha256": "655b8a1bb3219f96a386cc3fbe4e9a45f07305494e72ef04d45e944c743a7d7c",
+      "sizeBytes": 12484038,
+      "maxInstalledBytes": 12484038,
+      "fileName": "Gamelauncher-ons-thin-shell-release-arm64-v8a.apk"
+    }
+  ]
+}

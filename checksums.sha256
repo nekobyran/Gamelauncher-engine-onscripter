@@ -1,1 +1,2 @@
-# Add one lowercase SHA-256 entry per published artifact: <hash>  <relative-file>
+b6746c802f55081cae1d30128caf885bcf99c04e14cc88b11473c7c617b59301  Gamelauncher-engine-ons-android-arm64-v8a.zip
+655b8a1bb3219f96a386cc3fbe4e9a45f07305494e72ef04d45e944c743a7d7c  Gamelauncher-ons-thin-shell-release-arm64-v8a.apk

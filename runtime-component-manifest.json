@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "id": "ons",
   "kind": "engine",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "payloadClass": "runner",
   "requires": [],
   "runnerApi": "ons-process-v1",
@@ -10,6 +10,10 @@
     {
       "platform": "windows",
       "abi": "x64"
+    },
+    {
+      "platform": "android",
+      "abi": "arm64-v8a"
     }
   ],
   "artifacts": [
@@ -22,6 +26,16 @@
       "sizeBytes": 4675726,
       "maxInstalledBytes": 10661891,
       "fileName": "ons-windows-x64-v1.zip"
+    },
+    {
+      "platform": "android",
+      "abi": "arm64-v8a",
+      "format": "raw",
+      "url": "https://github.com/nekobyran/Gamelauncher-engine-onscripter/releases/download/v1.1.0/Gamelauncher-engine-ons-android-arm64-v8a.zip",
+      "sha256": "b6746c802f55081cae1d30128caf885bcf99c04e14cc88b11473c7c617b59301",
+      "sizeBytes": 5117279,
+      "maxInstalledBytes": 14096572,
+      "fileName": "Gamelauncher-engine-ons-android-arm64-v8a.zip"
     }
   ]
 }
