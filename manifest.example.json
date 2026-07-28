@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "onscripter",
+  "kind": "engine",
+  "version": "0.0.0-example",
+  "artifacts": [
+    {
+      "platform": "android",
+      "abi": "arm64-v8a",
+      "format": "zip",
+      "url": "https://github.com/nekobyran/Gamelauncher-engine-onscripter/releases/download/v0.0.0-example/onscripter-android-arm64-v8a.zip",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "sizeBytes": 1,
+      "maxInstalledBytes": 1,
+      "fileName": "onscripter-android-arm64-v8a.zip"
+    }
+  ]
+}
