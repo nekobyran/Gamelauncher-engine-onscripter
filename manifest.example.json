@@ -1,18 +1,27 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "ons",
   "kind": "engine",
   "version": "0.0.0-example",
+  "payloadClass": "runner",
+  "requires": [],
+  "runnerApi": "ons-process-v1",
+  "testedTargets": [
+    {
+      "platform": "windows",
+      "abi": "x64"
+    }
+  ],
   "artifacts": [
     {
-      "platform": "android",
-      "abi": "arm64-v8a",
+      "platform": "windows",
+      "abi": "x64",
       "format": "zip",
-      "url": "https://github.com/nekobyran/Gamelauncher-engine-onscripter/releases/download/v0.0.0-example/onscripter-android-arm64-v8a.zip",
+      "url": "https://github.com/nekobyran/Gamelauncher-engine-onscripter/releases/download/v0.0.0-example/onscripter-windows-x64.zip",
       "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
       "sizeBytes": 1,
       "maxInstalledBytes": 1,
-      "fileName": "onscripter-android-arm64-v8a.zip"
+      "fileName": "onscripter-windows-x64.zip"
     }
   ]
 }

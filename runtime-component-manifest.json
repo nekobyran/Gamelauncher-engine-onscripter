@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "id": "ons",
+  "kind": "engine",
+  "version": "1.0.1",
+  "payloadClass": "runner",
+  "requires": [],
+  "runnerApi": "ons-process-v1",
+  "testedTargets": [
+    {
+      "platform": "windows",
+      "abi": "x64"
+    }
+  ],
+  "artifacts": [
+    {
+      "platform": "windows",
+      "abi": "x64",
+      "format": "zip",
+      "url": "https://github.com/nekobyran/Gamelauncher-engine-onscripter/releases/download/v1.0.0/ons-windows-x64-v1.zip",
+      "sha256": "dd25eddbbf3b138d12f7ceca44d2cc6031a2cb8dfceace1cf92dd137564959cb",
+      "sizeBytes": 4675726,
+      "maxInstalledBytes": 10661891,
+      "fileName": "ons-windows-x64-v1.zip"
+    }
+  ]
+}
