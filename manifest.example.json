@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "onscripter",
+  "id": "ons",
   "kind": "engine",
   "version": "0.0.0-example",
   "artifacts": [
